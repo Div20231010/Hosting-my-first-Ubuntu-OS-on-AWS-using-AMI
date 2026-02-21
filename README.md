@@ -7,7 +7,7 @@
 - **Objective:** Launch and configure an Ubuntu server instance on AWS using Amazon Machine Images (AMI).
 - **Key Skills:** Cloud provisioning, Linux administration, networking, and security.
 - **Outcome:** A fully functional Ubuntu environment hosted on AWS, accessible via SSH for direct management.
-
+---
 ## 2. AWS Setup
 - **Instance Creation:** Selected Ubuntu AMI from AWS Marketplace.
 - **Configured EC2 Instance:** t3.large for sufficient memory and CPU resources...
@@ -17,7 +17,7 @@ Configured security groups to allow SSH (port 22) access, enabling me to connect
 - **Storage:** Attached Amazon EBS volume for persistent storage.
    - Attached an Amazon EBS volume to provide persistent storage, anticipating the disk space requirements of running OpenCTI on the instance. Allocating sufficient storage during setup ensured smooth operation and avoided the need for disruptive reconfiguration later.
 
-
+---
 ## 3. Ubuntu Configuration
 - **Access:** Generated and downloaded AWS key pair (.pem file)...
    - Generated and downloaded AWS key pair (.pem file) which i used together with my public ip address to securely ssh into my instance after creating.
@@ -32,7 +32,7 @@ Configured security groups to allow SSH (port 22) access, enabling me to connect
 - Solution: Restricted SSH access to my IPs and used AWS key pairs.
 - Challenge: Resource limitations on free-tier instances.
 - Solution: Use the pay as you go (Subscription Model).
-  ---
+---
 ## 5. Results
 - Successfully hosted Ubuntu OS on AWS.
 - Verified access by securely connecting via SSH.
