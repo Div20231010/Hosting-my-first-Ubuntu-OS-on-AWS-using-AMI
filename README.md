@@ -7,6 +7,9 @@
 - **Objective:** Launch and configure an Ubuntu server instance on AWS using Amazon Machine Images (AMI).
 - **Key Skills:** Cloud provisioning, Linux administration, networking, and security.
 - **Outcome:** A fully functional Ubuntu environment hosted on AWS, accessible via SSH for direct management.
+  ![Choose Instance](https://github.com/Div20231010/Hosting-my-first-Ubuntu-OS-on-AWS-using-AMI/blob/main/1st_os_choose.png)
+  
+  
 ---
 ## 2. AWS Setup
 - **Instance Creation:** Selected Ubuntu AMI from AWS Marketplace.
