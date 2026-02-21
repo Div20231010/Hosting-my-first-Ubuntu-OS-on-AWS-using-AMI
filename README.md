@@ -12,7 +12,7 @@
 - **Instance Creation:** Selected Ubuntu AMI from AWS Marketplace.
 - **Configured EC2 Instance:** t3.large for sufficient memory and CPU resources...
 - **Networking:** Configured VPC and security groups...
- - Created and configured a Virtual Private Cloud (VPC).
+  - Created and configured a Virtual Private Cloud (VPC).
 Configured security groups to allow SSH (port 22) access, enabling me to connect from Windows PowerShell into the EC2 instance. While AWS permits setting inbound rules to 0.0.0.0/0 for open access, I restricted the rule to my specific IP address to enhance security for this project.
 - **Storage:** Attached Amazon EBS volume for persistent storage.
    - Attached an Amazon EBS volume to provide persistent storage, anticipating the disk space requirements of running OpenCTI on the instance. Allocating sufficient storage during setup ensured smooth operation and avoided the need for disruptive reconfiguration later.
@@ -22,11 +22,9 @@ Configured security groups to allow SSH (port 22) access, enabling me to connect
 - **Access:** Generated and downloaded AWS key pair (.pem file)...
    - Generated and downloaded AWS key pair (.pem file) which i used together with my public ip address to securely ssh into my instance after creating.
 
-- **SSH Connection:**
+- **SSH Connection:** Use this to securely ssh into your instance via Windows Powershell
   ```bash
   ssh -i "C:\Users\Divine\Desktop\my-key.pem" ubuntu@<Elastic-IP>
-  - E.g 
-ssh -i "C:\Users\Divine\Desktop\my-key.pem" ubuntu@myinstance-public-ip
 
   ---
 ## 4. Challenges & Solutions
