@@ -25,8 +25,7 @@ Configured security groups to allow SSH (port 22) access, enabling me to connect
 - **SSH Connection:** Use this to securely ssh into your instance via Windows Powershell
   ```bash
   ssh -i "C:\Users\Divine\Desktop\my-key.pem" ubuntu@<Elastic-IP>
-
-  ---
+---
 ## 4. Challenges & Solutions
 - Challenge: Managing secure access.
 - Solution: Restricted SSH access to my IPs and used AWS key pairs.
